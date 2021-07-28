@@ -108,7 +108,7 @@ nav a{
 }
 .nav-down-section-description h1{
     margin: 12px 102px 27px 156px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 64px;
 }
 .nav-down-section-description a{
@@ -209,4 +209,110 @@ p{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     font-size: .9em;
+}
+#highlights{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 165px 156px;
+    gap: 69px;
+    position: relative;
+}
+#h-description{
+    height: 100%;
+    width: 50%;
+    align-items: left;
+    position: relative;
+}
+#h-description h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+#h-description p{
+    margin-bottom: 24px;
+}
+#h-description a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    background: #E02C6D;
+    margin: 24px 0px;
+    width: 168px;
+    height: 44px;
+}
+#h-description a:hover{
+    background: white;
+    color: #E02C6D;
+    font-size: 20px;
+    border: 2px solid #E02C6D;
+    position: relative;
+}
+#h-description a i{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+#h-photo{
+    width: 50%;
+    height: 100%;
+}
+#h-photo img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    width: 483.87px;
+    height: 213px;
+    margin: 158px 482px 63px 475px;
+}
+#f-section1{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+#f-section1 img{
+    width: 100%;
+}
+#f-section2{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 170px;
+    height: 32px;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 20px 156px 20px;
+    gap: 14px;
+
+}
+#f-section2 a{
+    text-decoration: none;
+}
+#f-section2 a i{
+    color: #0f0f0f;
+    padding: 10px;
+    border-radius: 19px;
+    background: #969BAB;;
+}
+#f-section3{
+    font-size: 18px;
+    height: 31px;
+    width: 236px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    margin: 0px 123px;
+}
+#f-section3 p{
+    color: #0f0f0f;
 }
