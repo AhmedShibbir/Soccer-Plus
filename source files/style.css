@@ -171,12 +171,15 @@ article{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     -moz-box-shadow: 0 0 3px #ccc;
     -webkit-box-shadow: 0 0 3px #ccc;
     box-shadow: 0 0 15px rgb(75, 73, 73);
     margin-bottom: 27px;
+}
+.players:hover{
+    box-shadow: 0 0 15px rgb(8, 68, 233);
 }
 .player-image{
     height: 50%;
