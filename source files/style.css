@@ -383,6 +383,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    article,footer{
+        overflow-x:hidden;
+    }
     .players{
         margin: 0px;
         width: 100%;
