@@ -329,20 +329,28 @@ footer{
     #nav-menu a:last-child{
         visibility: visible;
         align-items: left;
+        padding: 0px .5em;
     }
     nav{
         justify-content: left;
         align-items: left;
         height: 30px;
+        margin-left: 40px;
     }
     #nav-login{
-        margin-right: 150px;
+        margin-right: 50px;
+    }
+    #nav-login a{
+        padding: .7em;
+        text-align: center;
+    }
+    #nav-login a i{
+        margin-right: 0px;
     }
     .nav-down-section{
         flex-direction: column;
         overflow: visible;
         align-items: center;
-        gap: 30px;
         width: 100%;
         height: 100%;
     }
@@ -351,9 +359,13 @@ footer{
         height: 50%;
         margin: 20px;
         overflow: visible;
+        margin-right: 150px;
     }
     .nav-down-section-description h1{
         font-size: 35px;
+    }
+    .nav-down-section-description a{
+        padding: .5em;
     }
     .nav-down-section-photo{
         align-items: right;
@@ -392,6 +404,11 @@ footer{
         align-items: center;
         justify-content: center;
         margin-top: 0px;
+    }
+    #f-section1{
+        width: 50%;
+        align-items: flex-end;
+        padding: 0px 20px 0px 110px;
     }
     a{
         font-size: 13px;
