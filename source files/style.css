@@ -319,3 +319,215 @@ footer{
 #f-section3 p{
     color: #0f0f0f;
 }
+@media only screen and (max-width:640px) and (min-width:360px) {
+    header{
+        height: 100%;
+    }
+    #nav-menu a:not(:last-child){
+       display: none;
+    }
+    #nav-menu a:last-child{
+        visibility: visible;
+        align-items: left;
+    }
+    nav{
+        justify-content: left;
+        align-items: left;
+        height: 30px;
+    }
+    #nav-login{
+        margin-right: 150px;
+    }
+    .nav-down-section{
+        flex-direction: column;
+        overflow: visible;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    .nav-down-section-description{
+        width: 100%;
+        height: 50%;
+        margin: 20px;
+        overflow: visible;
+    }
+    .nav-down-section-description h1{
+        font-size: 35px;
+    }
+    .nav-down-section-photo{
+        align-items: right;
+        width: 50%;
+        height: 50%;
+        overflow: visible;
+    }
+    .nav-down-section-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .article-section{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .players{
+        margin: 0px;
+        width: 100%;
+        height: 50%;
+    }
+    #highlights{
+        flex-direction: column;
+    }
+    #h-description{
+        width: 100%;
+    }
+    #h-description h1{
+        font-size: 25px;
+    }
+    #h-photo{
+        width: 100%;
+    }
+    footer{
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    a{
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    
+}
+@media only screen and (max-width:1260px) and (min-width:1080px) {
+    header{
+        height: 550px;
+    }
+    
+    nav{
+        justify-content: left;
+        align-items: left;
+        height: 30px;
+    }
+    #nav-login{
+        margin-right: 100px;
+    }
+    
+    .nav-down-section-description h1{
+        font-size: 35px;
+    }
+    .article-section{
+        justify-content: left;
+        align-items: flex-start;
+    }
+    #highlights{
+        flex-direction: column-reverse;
+    }
+    #h-description{
+        width: 100%;
+    }
+    #h-description h1{
+        font-size: 25px;
+    }
+    #h-photo{
+        width: 100%;
+    }
+    footer{
+        margin-top: .25em;
+        align-items: center;
+        justify-content: center;
+    }
+    a{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:1079px) and (min-width:641px) {
+    header{
+        height: 100%;
+    }
+    #nav-menu a:not(:last-child){
+        display: none;
+     }
+     #nav-menu a:last-child{
+         visibility: visible;
+         align-items: left;
+     }
+    nav{
+        justify-content: left;
+        align-items: left;
+        height: 30px;
+    }
+    #nav-login{
+        margin-right: 100px;
+    }
+    .nav-down-section{
+        flex-direction: column;
+        overflow: visible;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    .nav-down-section-description{
+        width: 100%;
+        height: 50%;
+        margin: 20px;
+        overflow: visible;
+    }
+    .nav-down-section-description h1{
+        font-size: 35px;
+    }
+    .nav-down-section-photo{
+        align-items: right;
+        width: 50%;
+        height: 50%;
+        overflow: visible;
+    }
+    .nav-down-section-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .article-section{
+        position: relative;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .players{
+        margin: 15px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        
+    }
+    #highlights{
+        flex-direction: column-reverse;
+    }
+    #h-description{
+        width: 100%;
+    }
+    #h-description h1{
+        font-size: 25px;
+    }
+    #h-photo{
+        width: 100%;
+    }
+    footer{
+        margin-top: .5em;
+        align-items: center;
+        justify-content: center;
+    }
+    a{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+}
